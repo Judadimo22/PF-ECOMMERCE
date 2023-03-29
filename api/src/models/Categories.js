@@ -5,7 +5,7 @@ const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
     sequelize.define(
-        "admin",
+        "categories",
         {
             id: {
                 type: DataTypes.UUID,
